@@ -34,11 +34,6 @@
 					</target>
 				</buildTargets>
 			</storageModule>
-			<storageModule moduleId="org.eclipse.cdt.core.pathentry">
-				<pathentry include="C:/mingw/lib/gcc/mingw32/3.4.2/include" kind="inc" path="" system="true"/>
-				<pathentry kind="src" path=""/>
-				<pathentry kind="out" path=""/>
-			</storageModule>
 			<storageModule buildSystemId="org.eclipse.cdt.core.defaultConfigDataProvider" id="converted.config.1806490192" moduleId="org.eclipse.cdt.core.settings" name="convertedConfig">
 				<externalSettings/>
 				<extensions>
@@ -46,7 +41,14 @@
 					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
 				</extensions>
 			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
 		</cconfiguration>
 	</storageModule>
 	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+	<storageModule moduleId="org.eclipse.cdt.core.pathentry">
+		<pathentry include="C:/MinGW/include" kind="inc" path="" system="true"/>
+		<pathentry kind="src" path=""/>
+		<pathentry kind="out" path=""/>
+	</storageModule>
 </cproject>
