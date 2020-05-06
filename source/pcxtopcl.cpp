@@ -44,7 +44,7 @@ unsigned char	bitmask[8] = {
 				        };
 
 
-char *VERSION="1.00002";
+char VERSION[]= {'1','.','3'};
 
 int main(int argc, char *argv[])
 
